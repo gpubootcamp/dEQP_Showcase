@@ -43,3 +43,6 @@ cd external\openglcts\modulers
 
 Debug\glcts.exe --deqp-gl-context-type=egl --deqp-case=KHR-GLES31.core...
 
+glcts.exe --deqp-case=dEQP-GLES3.info.* 
+
+must pass @opengles\data\mustpass\gles3-deqp-master.txt
