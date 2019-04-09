@@ -12,6 +12,8 @@ cmake -DDEQP_TARGET=default(xxx_emu) -DGLCTS_GTF_TARGET=gles31 -G "Visual Studio
 > D:\git\OES\VK-GL-CTS-2\VK-GL-CTS-master
 >
 > cmake -DDEQP_TARGET=default -G "Visual Studio 15 Win64"
+>
+> cmake -DDEQP_TARGET=default -G "Visual Studio 15"
 
 - Relative path failed 
 @openglcts\README.md Building GL, ES2 or ES3.x cts
@@ -21,6 +23,10 @@ cmake -DDEQP_TARGET=default(xxx_emu) -DGLCTS_GTF_TARGET=gles31 -G "Visual Studio
 >
 > make error: Not found PCH @146line => PCH macro define in VK-GL-CTS\CMakeList.txt
   
+- Rebuild
+> Remove CMakeFiles dir
+> Delete CMakeCache.txt
+
 # Run full CTS on Windows
 cd external\openglcts\modulers
 Release(Debug)\cts-runner.exe --type=es32
