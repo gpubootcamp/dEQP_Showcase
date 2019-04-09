@@ -14,6 +14,8 @@ cmake -DDEQP_TARGET=default(xxx_emu) -DGLCTS_GTF_TARGET=gles31 -G "Visual Studio
 > cmake -DDEQP_TARGET=default -G "Visual Studio 15 Win64"
 >
 > cmake -DDEQP_TARGET=default -G "Visual Studio 15"
+>
+> cmake --build .
 
 - Relative path failed 
 @openglcts\README.md Building GL, ES2 or ES3.x cts
