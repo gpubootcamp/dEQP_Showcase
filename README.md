@@ -27,6 +27,7 @@ cmake -DDEQP_TARGET=default(xxx_emu) -DGLCTS_GTF_TARGET=gles31 -G "Visual Studio
   
 - Rebuild
 > Remove CMakeFiles dir
+
 > Delete CMakeCache.txt
 
 # Run full CTS on Windows
